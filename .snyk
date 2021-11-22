@@ -1,0 +1,13 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  SNYK-JS-ANSIREGEX-1583908:
+    - gatsby > strip-ansi > ansi-regex:
+        reason: None given
+        expires: '2021-12-22T23:07:39.558Z'
+  SNYK-JS-OBJECTPATH-1585658:
+    - gatsby > gatsby-cli > gatsby-recipes > graphql-compose > object-path:
+        reason: None given
+        expires: '2021-12-22T23:07:39.558Z'
+patch: {}
